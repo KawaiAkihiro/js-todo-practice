@@ -6,9 +6,37 @@
   </head>
 
   <body>
-    <div id="app"></div>
-    <p>修正しました</p>
+    <div class="input-area">
+      <input placeholder="todoを入力" />
+      <button>追加</button>
+    </div>
 
+    <div class="imcomplate-area">
+      <p class="title">未完了のtodo</p>
+      <ul>
+        <div class="list-row">
+          <li>todoです</li>
+          <button>完了</button>
+          <button>削除</button>
+        </div>
+
+        <div class="list-row">
+          <li>todoです</li>
+          <button>完了</button>
+          <button>削除</button>
+        </div>
+      </ul>
+    </div>
+
+    <div class="complated-area">
+      <p class="title">完了したtodo</p>
+      <ul>
+        <div class="list-row">
+          <li>todoでした</li>
+          <button>戻す</button>
+        </div>
+      </ul>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
